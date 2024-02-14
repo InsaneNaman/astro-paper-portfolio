@@ -12,6 +12,15 @@ const { noMarginTop = false } = Astro.props;
 ---
 
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
+  <div class="email">
+    Got something exciting to talk or have an opportunity for me? Share your
+    feedback or inquiries at
+    <a
+      class="underline decoration-dashed underline-offset-4 text-skin-accent"
+      href="mailto:namangupta.cse+hello@gmail.com"
+      >namangupta.cse+hello@gmail.com.</a
+    > Let's chat!
+  </div>
   <Hr noPadding />
   <div class="footer-wrapper">
     <Socials centered />
@@ -26,6 +35,11 @@ const { noMarginTop = false } = Astro.props;
 <style>
   footer {
     @apply w-full;
+  }
+  .email {
+    @apply pb-4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   .footer-wrapper {
     @apply flex flex-col items-center justify-between py-6 sm:flex-row-reverse sm:py-4;
