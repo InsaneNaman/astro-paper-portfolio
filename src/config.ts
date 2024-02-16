@@ -3,11 +3,11 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://insanenaman.com",
   author: "Naman Gupta",
-  desc: "Naman is an India based full stack dev who loves to play around JS",
+  desc: "Naman is a full stack dev who loves to play around JS and build things",
   title: "WebNinja",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "favicon.svg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 6,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
