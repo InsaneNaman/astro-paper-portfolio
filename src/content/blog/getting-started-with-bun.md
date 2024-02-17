@@ -105,7 +105,7 @@ While the community has developed tools like [`ts-node`](https://www.npmjs.com/p
 
 > A tool which run your tests like Vitest, jest etc
 
-Both Node.js and Bun now come equipped with native test runners, providing seamless tooling to execute your tests. Unlike Jest, where additional integration is required for [TypeScript](https://www.typescriptlang.org/) tests due to Node.js not transpiling TS by default, Bun's built-in TypeScript support simplifies running tests without the need for extra configuration. `[Jest](https://jestjs.io/)/[Vitest](https://vitest.dev/) also takes more time to run the same tests. So, choose native wherever you can.`
+Both Node.js and Bun now come equipped with native test runners, providing seamless tooling to execute your tests. Unlike Jest, where additional integration is required for [TypeScript](https://www.typescriptlang.org/) tests due to Node.js not transpiling TS by default, Bun's built-in TypeScript support simplifies running tests without the need for extra configuration. [Jest](https://jestjs.io/) / [Vitest](https://vitest.dev/) `also takes more time to run the same tests. So, choose native wherever you can.`
 
 ### And much more
 
