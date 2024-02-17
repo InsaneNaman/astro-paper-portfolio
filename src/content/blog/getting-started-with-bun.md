@@ -79,7 +79,7 @@ In addition to the main features discussed in next section, Bun also streamlines
 
 ### Runtime
 
-> An environment or tool that comprehends and executes your JavaScript code while providing additional functionalities such as supporting asynchronous operations and executing multiple tasks simultaneously using workers.
+> A tool that understands and runs your JavaScript code, while also supporting async operations and handling multiple tasks at once. It also helps in executing custom async operations using workers etc (as JS is Single threaded)
 
 In today's landscape, JavaScript developers are heavily reliant on Node.js as their primary tool, and Bun recognizes this. It offers a seamless drop-in replacement, meaning you can seamlessly substitute Bun for Node.js without disrupting your existing codebase. Built on top of Zig, Bun ensures compatibility while enhancing performance and functionality.
 
